@@ -16,3 +16,7 @@
   display: grid;
   gap: 10px;
 }
+.form-container {
+  display: grid;
+  gap: 10px;
+}

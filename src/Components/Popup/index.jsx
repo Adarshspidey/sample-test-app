@@ -31,8 +31,8 @@ const Popup = ({ setPopup, data, click }) => {
     <div className="popup-container">
       <div className="popup-content">
         <div className="popup-header">{description.show.name}</div>
-        <div className="form-container">
-          <form onSubmit={(e) => onSubmit(e)}>
+        <div>
+          <form onSubmit={(e) => onSubmit(e)} className="form-container">
             <input
               type="text"
               placeholder="Name"
@@ -57,7 +57,7 @@ const Popup = ({ setPopup, data, click }) => {
               value={form.seat}
               onChange={(e) => onChange("seat", e.target.value)}
             />
-            <button> Submit</button>
+            <button> Book</button>
           </form>
         </div>
       </div>
