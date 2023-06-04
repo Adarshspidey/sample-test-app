@@ -1,0 +1,9 @@
+.movie-name-header-small {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.movie-genre {
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
