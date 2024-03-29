@@ -4,7 +4,7 @@ import "./style.css";
 const MovieCard = ({ movie, onClick }) => {
   return (
     <div onClick={onClick}>
-      <img src={movie.show.image.medium} alt="None" />
+      <img src={movie.show.image?movie.show.image.medium:""} alt="None" />
       <div className="movie-name-header-small">
         {movie.show.name}({movie.show.language})
       </div>
